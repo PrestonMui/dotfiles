@@ -13,7 +13,7 @@ autoload -Uz compinit
 compinit
 
 # Aliases
-alias ls='ls -l --color=auto'
+alias ls='ls -lh --color=auto'
 alias subl='subl3'
 alias matlab='matlab -desktop -softwareopengl'
 
