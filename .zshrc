@@ -42,4 +42,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Anaconda
-export PATH="/home/pmui/anaconda3/bin/:/usr/local/stata13/:$PATH"
+export PATH="/home/pmui/anaconda3/bin/:/usr/local/stata13/:/usr/NX/bin/:$PATH"
