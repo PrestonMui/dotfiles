@@ -156,6 +156,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 
 bar {
+    mode		dock
+    hidden_state	show
     position		bottom
     status_command	i3status
     tray_output		primary
@@ -170,7 +172,7 @@ bar {
 # Audio Buttons
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 1%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 1%- unmute
-bindsym XF86AudioMute exec amixer -q set Master mute
+bindsym XF86AudioMute exec amixer -D pulse sset Master toggle
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
