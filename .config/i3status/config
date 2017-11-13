@@ -22,7 +22,7 @@ order += "battery 0"
 order += "cpu_temperature 0"
 order += "load"
 order += "disk /"
-order += "disk /home/"
+order += "disk /home"
 order += "tztime local"
 
 volume master {
@@ -72,6 +72,6 @@ disk "/" {
         format = "R: %avail"
 }
 
-disk "/home/" {
+disk "/home" {
 	format = "H: %avail"
 }
