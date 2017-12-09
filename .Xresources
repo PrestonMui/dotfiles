@@ -1,7 +1,7 @@
 ! Base16 Default Dark
 ! Scheme: Chris Kempson (http://chriskempson.com)
 
-URxvt.font: xft:inconsolata:size=10
+URxvt.font: xft:inconsolata:size=12
 URxvt*scrollBar:	false
 URxvt*termName: rxvt-unicode
 
