@@ -16,6 +16,7 @@ compinit
 alias ls='ls -lh --color=auto'
 alias subl='subl3'
 alias matlab='matlab -desktop -softwareopengl'
+alias fd='firefox-developer'
 
 # Key Bindings
 bindkey "${terminfo[khome]}" beginning-of-line
@@ -42,4 +43,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Anaconda
-export PATH="/home/pmui/anaconda3/bin/:/usr/local/stata15/:/usr/NX/bin/:$PATH"
+export PATH="/usr/local/stata15/:/opt/anaconda/bin/:$PATH"
