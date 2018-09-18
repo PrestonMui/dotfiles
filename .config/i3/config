@@ -155,18 +155,23 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
+# bar {
+#     mode		dock
+#     hidden_state	show
+#     position		bottom
+#     status_command	i3status
+#     tray_output		primary
+#     colors {
+#     	separator	#AAAAAA
+#     	statusline	#FFFFFF
+#     	background	#222133
+#     	focused_workspace #664477 #664477 #cccccc
+#     }
+# }
+
+# i3 block
 bar {
-    mode		dock
-    hidden_state	show
-    position		bottom
-    status_command	i3status
-    tray_output		primary
-    colors {
-    	separator	#AAAAAA
-    	statusline	#FFFFFF
-    	background	#222133
-    	focused_workspace #664477 #664477 #cccccc
-    }
+    status_command i3blocks
 }
 
 # Audio Buttons
