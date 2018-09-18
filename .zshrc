@@ -16,7 +16,6 @@ compinit
 alias ls='ls -lh --color=auto'
 alias subl='subl3'
 alias matlab='matlab -desktop -softwareopengl'
-alias fd='firefox-developer'
 
 # Key Bindings
 bindkey "${terminfo[khome]}" beginning-of-line
