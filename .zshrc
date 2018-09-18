@@ -16,6 +16,7 @@ compinit
 alias ls='ls -lh --color=auto'
 alias subl='subl3'
 alias matlab='matlab -desktop -softwareopengl'
+alias wn1='watch -n 1 '
 
 # Key Bindings
 bindkey "${terminfo[khome]}" beginning-of-line
